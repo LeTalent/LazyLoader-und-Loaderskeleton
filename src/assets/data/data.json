@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "hero1",
+      "surename": "Carla Sherman",
+      "picture": ""
+    },
+    {
+      "name": "hero2",
+      "surename": "Alvarado Mcgee",
+      "picture": ""
+    },
+    {
+      "name": "hero3",
+      "surename": "Consuelo Wilkinson",
+      "picture": ""
+    }
+  ]
+}

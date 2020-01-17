@@ -1,0 +1,45 @@
+<div
+  *ngIf="loaded; else skeleton"
+  class="main-div"
+  fxFlex
+  fxLayout="row"
+  fxLayout.xs="column"
+  fxLayout.sm="column"
+  fxLayoutGap="10px"
+>
+  <mat-card fxFlex class="example-card" *ngFor="let user of users">
+    <mat-card-header>
+      <img mat-card-avatar src="{{ user.picture }}" />
+      <mat-card-title>{{ user.name }}</mat-card-title>
+      <mat-card-subtitle>{{ user.surename }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{ user.picture }}" alt="Photo of a Shiba Inu" />
+    <mat-card-content>
+      <p>
+        The Shiba Inu is the smallest of the six original and distinct spitz
+        breeds of dog from Japan. A small, agile dog that copes very well with
+        mountainous terrain, the Shiba Inu was originally bred for hunting.
+      </p>
+    </mat-card-content>
+  </mat-card>
+</div>
+<ng-template #skeleton>
+  <ngx-skeleton-loader
+    count="3"
+    [theme]="{
+      width: '100px',
+      display: 'flex',
+      'border-radius': '5px',
+      height: '10px',
+      'background-color': 'ligth-grey'
+    }"
+  ></ngx-skeleton-loader
+  ><br /><br />
+
+  <ngx-skeleton-loader
+    count="3"
+    appearance="circle"
+    [theme]="{ width: '400px', height: '400px', 'border-radius': '10px' }"
+  >
+  </ngx-skeleton-loader>
+</ng-template>
