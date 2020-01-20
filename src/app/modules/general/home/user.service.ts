@@ -24,6 +24,76 @@ export class UserService {
       name: 'Ankit',
       surename: 'VVP Engineering College',
       picture: 'assets/images/vw4.jpg'
+    },
+    {
+      name: 'Pushkahn',
+      surename: 'The Best',
+      picture: 'assets/images/vw1.jpg'
+    },
+    {
+      name: 'Nampradou',
+      surename: 'Hongback',
+      picture: 'assets/images/vw.jpg'
+    },
+    {
+      name: 'Guiza Gozo',
+      surename: 'Dzaguina',
+      picture: 'assets/images/Hotel Foto einbinden.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
+    },
+    {
+      name: 'tchou Nkeu',
+      surename: 'Pa a chi',
+      picture: 'assets/images/vw3.jpg'
     }
   ];
 
